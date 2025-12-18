@@ -1,0 +1,20 @@
+
+// 455. Assign Cookies
+// Easy
+class Solution {
+    public int findContentChildren(int[] g, int[] s) {
+        int n = g.length; int m = s.length;
+        Arrays.sort(g); Arrays.sort(s); // sorting arrays for two pointer implementation
+
+        int l = 0, r = 0; // left and right pointers
+
+        while(l<m && r<n){
+            if(g[r] <= s[l]) r = r+1;
+
+            l  = l +1;
+        }
+
+
+        return r;
+    }
+}
