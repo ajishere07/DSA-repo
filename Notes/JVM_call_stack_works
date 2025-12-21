@@ -1,0 +1,4 @@
+When the JVM executes a method call, it creates a new stack frame that stores the method’s parameters, local variables, and execution state.
+If primitives are passed, their values are copied into the stack frame.
+If objects are passed, the reference is copied, while the actual object remains in heap memory.
+When the method finishes execution, its stack frame is removed from the call stack in a last-in, first-out manner.
