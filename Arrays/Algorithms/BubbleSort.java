@@ -37,11 +37,11 @@ public class Main {
           arr[c] = arr[c+1];
           arr[c+1] = temp;
         }
-        recursiveStar(arr,r, c+1);
+        recursiveBubbleSort(arr,r, c+1);
       }
       else{
        
-        recursiveStar(arr,r-1, 0);
+        recursiveBubbleSort(arr,r-1, 0);
       } 
     }
 }
