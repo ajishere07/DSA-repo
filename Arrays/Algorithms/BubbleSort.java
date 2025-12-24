@@ -27,7 +27,7 @@ public class Main {
   }
 
   //Recursive bubble sort
-  static void recursiveStar(int[] arr, int r, int c){
+  static void recursiveBubbleSort(int[] arr, int r, int c){
       if(r==0) return;
       
       if(c < r) {
