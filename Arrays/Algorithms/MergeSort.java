@@ -1,3 +1,16 @@
+/*
+Merge Sort is a divide-and-conquer algorithm that first finds the middle of the array and splits it into left and 
+right subarrays.
+
+It recursively sorts both subarrays until each subarray contains only one element.
+
+Then, the merge function compares elements from the left and right subarrays and places the smaller element into the
+original array.
+
+This process continues until all elements are merged back in sorted order, resulting in a fully sorted array.
+*/
+
+
 public class Main {
     public static void main(String[] args) {
       int[] arr = {9,7,2,4,6,8,5,1};
